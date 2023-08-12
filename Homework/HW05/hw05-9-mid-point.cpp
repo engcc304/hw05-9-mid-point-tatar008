@@ -37,6 +37,9 @@ int main() {
     printf("Input B Point :\n");
     scanf("%f %f", &c, &d);
 
-    printf("Mid Point of A and B is ( %0.1f, %0.1f )", (a + b)/2, (c + d)/2);
+    float A = (a + b)/2 ;
+    float B = (c + d)/2 ;
+
+    printf("Mid Point of A and B is ( %0.1f, %0.1f )", A, B);
 
 }
