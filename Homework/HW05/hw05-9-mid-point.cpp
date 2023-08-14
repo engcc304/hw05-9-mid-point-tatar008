@@ -42,4 +42,5 @@ int main() {
 
     printf("Mid Point of A and B is ( %0.1f, %0.1f )", A, B);
 
+    return 0;
 }
